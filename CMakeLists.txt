@@ -5,7 +5,8 @@
 #
 # SPDX-License-Identifier: (Apache-2.0 OR GPL-2.0-only)
 
-cmake_minimum_required(VERSION 3.21.4 FATAL_ERROR)
+#cmake_minimum_required(VERSION 3.21.4 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.18.2 FATAL_ERROR)
 
 # toolchain.cmake needs to be included before project() because the former sets the compiler path for the custom toolchain,
 # if the user specify it and the latter does compiler detection.
