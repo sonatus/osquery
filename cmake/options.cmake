@@ -42,7 +42,7 @@ function(detectOsqueryVersion)
     set(osquery_version "${OSQUERY_VERSION}")
   endif()
 
-  set(osquery_version "${OSQUERY_VERSION}")
+  set(osquery_version 5.5.1)
   message(STATUS "###################################")
   message(STATUS "osquery version: ${osquery_version}")
   message(STATUS "###################################")
