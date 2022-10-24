@@ -42,6 +42,9 @@ function(detectOsqueryVersion)
     set(osquery_version "${OSQUERY_VERSION}")
   endif()
 
+  message(WARNING "###################################")
+  message(WARNING "osquery version: ${osquery_version}")
+  message(WARNING "###################################")
   string(REPLACE "." ";" osquery_version_components "${osquery_version}")
 
   list(LENGTH osquery_version_components osquery_version_components_len)
