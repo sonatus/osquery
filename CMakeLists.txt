@@ -50,7 +50,7 @@ function(main)
   elseif(NOT DEFINED PLATFORM_WINDOWS)
     if(NOT "${CMAKE_C_COMPILER_ID}" STREQUAL "Clang" OR
       NOT "${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
-      message(STATUS "Warning: the selected C or C++ compiler is not clang/clang++. Compilation may fail")
+      message(STATUS "Warning: the selected C or C++ compiler ${CMAKE_C_COMPILER_ID} ${CMAKE_CXX_COMPILER_ID} is not clang/clang++. Compilation may fail")
     endif()
   endif()
 
