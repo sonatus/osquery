@@ -113,7 +113,7 @@ set(OSQUERY_CLANG_TIDY_CHECKS "-checks=cert-*,cppcoreguidelines-*,performance-*,
 
 option(OSQUERY_BUILD_BPF "Whether to enable and build BPF support" ON)
 option(OSQUERY_BUILD_AWS "Whether to build the aws tables and library, to decrease memory usage and increase speed during build." OFF)
-option(OSQUERY_BUILD_DPKG "Whether to build the dpkg tables" ON)
+option(OSQUERY_BUILD_DPKG "Whether to build the dpkg tables" OFF)
 
 option(OSQUERY_ENABLE_FORMAT_ONLY "Configure CMake to format only, not build")
 
